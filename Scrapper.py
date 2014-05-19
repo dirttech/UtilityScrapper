@@ -195,7 +195,7 @@ def ScrapSpancoNagpur(customerNo):
         LoadSanctioned = soup.find("span", {"id": "lbl_sancLoad"}).string
         PlaceType = soup.find("span", {"id": "lbl_category"}).string
 
-        obj = {u"BillReadings": EnergyReadings, u"Name": Name, u"Address": Address, u"Sanctioned Load": LoadSanctioned, u"Place Type": PlaceType}
+        obj = {u"EnergyReadings": EnergyReadings, u"Name": Name, u"Address": Address, u"Sanctioned Load": LoadSanctioned, u"Place Type": PlaceType}
         json_obj=json.dumps(obj)
         br.close()
         return json_obj
@@ -387,7 +387,7 @@ def ScrapTANGEDCO(customerNo, locality):
             val = float(tds[14*i+8].next.next.string)
             BillReadings.append([temp,val])
 
-        obj = {u"BillReadings": BillReadings, u"Name": Name[2:], u"Address": Address[2:], u"Circle": Circle}
+        obj = {u"BillReadings": BillReadings, u"Name": Name, u"Address": Address, u"Circle": Circle}
         json_obj=json.dumps(obj)
         br.close()
         return json_obj
