@@ -211,9 +211,9 @@ def ScrapBestMumbai(customerNo):
         br.select_form(name='aspnetForm')
         br['ctl00$Contentplaceholder2$ctl02$txtAccno'] = customerNo
 
-        resp = br.submit()
+        resp=br.submit(name='ctl00$Contentplaceholder2$ctl02$btnGo', label='Go')
 
-        print br.response().read()
+
         br.open('https://www.bestundertaking.net/CUSTOMERPaymentInfo.aspx')
 
         soup = BeautifulSoup(br.response().read())
@@ -240,16 +240,13 @@ def ScrapBestMumbai(customerNo):
                     pass
             ct = ct + 1
 
-        #br.open("http://customercare.sndl.in/frm_bill_print.aspx?serv_no="+customerNo+"&billmonth=Apr-2014")
-        #soup = BeautifulSoup(br.response().read())
-        #print soup
+        br.open("https://www.bestundertaking.net/CUSTOMERHome.aspx")
+        soup = BeautifulSoup(br.response().read())
 
-        #Name = soup.find("span", {"id": "lbl_name"}).string
-        #Address = soup.find("span", {"id": "lbl_address"}).string
-        #LoadSanctioned = soup.find("span", {"id": "lbl_sancLoad"}).string
-        #PlaceType = soup.find("span", {"id": "lbl_category"}).string
+        Name = soup.find("span", {"id": "ctl00_Contentplaceholder2_ctl02_LblCustName"}).string
+        Address = soup.find("span", {"id": "ctl00_Contentplaceholder2_ctl02_LblAddress"}).next.next.next
 
-        obj = {u"BillReadings": BillReadings, u"Name": Name, u"Address": Address, u"Sanctioned Load": LoadSanctioned, u"Place Type": PlaceType}
+        obj = {u"BillReadings": BillReadings, u"Name": Name, u"Address": Address}
         json_obj=json.dumps(obj)
         br.close()
         return json_obj
@@ -264,46 +261,72 @@ def ScrapMahaVitran(customerNo, locality):
 
         br.open('http://wss.mahadiscom.in/wss/wss?uiActionName=getViewPayBill')
 
-        br.select_form(name='viewPayBillForm')
-        payload = {'ConsumerNo': customerNo, 'BuNumber': locality}
+        br.select_form(name="viewPayBillForm")
 
-        r = requests.post('http://wss.mahadiscom.in/wss/wss?uiActionName=postViewPayBill&IsAjax=true', payload)
-        print r.text
+        br.set_all_readonly(False)
+        #payload = {'ConsumerNo': customerNo, 'BuNumber': locality}
+        br['uiActionName'] = 'getBillingDetail'
+        br['consumerNumber'] = customerNo
+        br['BU'] = locality
+        br['hdnConsumerNumber'] = customerNo
+        br['hdnBu'] = ''
+        br['isViaForm']=''
+        br['hdnBillMonth'] = ''
+        br['hdnDdlConsumerType'] = ''
+        #br['consumerType'] = '1'
+        text_control = br.form.find_control(id="consumerType")
+        for item in text_control.items:
+            if item.name == '1':
+                item.selected = True
+
+        txt = br.form.find_control(nr=12)
+        for item in txt.items:
+            if item.name == locality:
+                item.selected = True
+
+        cir = br.form.find_control(id='ddlCircleCode')
+        for item in cir.items:
+            if item.name == '-1':
+                item.selected = True
+
+
+        resp = br.submit()
 
         soup = BeautifulSoup(br.response().read())
-        print br.response().read()
-        tab = soup.find("table", {"id": "ctl00_cph_grdv_Bill_history"})
-        tr = tab.find_all("tr")
-        #print tr
+
+        mnths = soup.find(attrs={"name": "billmnthArr"})['value']
+        amts = soup.find(attrs={"name": "billAmntArr"})['value']
+        consumps = soup.find(attrs={"name": "billConsumpArr"})['value']
+
+        mnthList = mnths.split(',')
+        amtList = amts.split(',')
+        consumList = consumps.split(',')
+
         BillReadings=[[0,0]]
+        EnergyReadings=[[0,0]]
         ct=0
-        for rows in tr:
-            #print rows
-            td = rows.find_all("td")
-            if(ct == 1):
+        for var in mnthList:
+            if(ct == 0):
                 try:
-                    BillReadings[0][0] = td[0].text
-                    BillReadings[0][1] = float(td[1].text)
+                    BillReadings[0][0] = mnthList[0]
+                    BillReadings[0][1] = float(amtList[0])
+                    EnergyReadings[0][0] = mnthList[0]
                 except:
                     pass
 
-            if(ct > 1):
+            if(ct > 0):
                 try:
-                    BillReadings.append([td[0].text, float(td[1].text)])
+                    BillReadings.append([mnthList[ct], float(amtList[ct])])
+                    EnergyReadings.append([mnthList[ct], float(consumList[ct])])
                 except:
                     pass
             ct = ct + 1
 
-        br.open("http://customercare.sndl.in/frm_bill_print.aspx?serv_no="+customerNo+"&billmonth=Apr-2014")
-        soup = BeautifulSoup(br.response().read())
-        #print soup
 
-        Name = soup.find("span", {"id": "lbl_name"}).string
-        Address = soup.find("span", {"id": "lbl_address"}).string
-        LoadSanctioned = soup.find("span", {"id": "lbl_sancLoad"}).string
-        PlaceType = soup.find("span", {"id": "lbl_category"}).string
+        Name = soup.find("label", {"id": "lblConsumerName"}).string
+        Address = soup.find("label", {"id": "lblAddress"}).string
 
-        obj = {u"BillReadings": BillReadings, u"Name": Name, u"Address": Address, u"Sanctioned Load": LoadSanctioned, u"Place Type": PlaceType}
+        obj = {u"BillReadings": BillReadings, u"EnergyReadings":EnergyReadings, u"Name": Name, u"Address": Address}
         json_obj=json.dumps(obj)
         br.close()
         return json_obj

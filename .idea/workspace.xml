@@ -26,16 +26,14 @@
       <file leaf-file-name="Scrapper.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="351" column="40" selection-start="12206" selection-end="12206" vertical-scroll-proportion="4.4791665" vertical-offset="450" max-vertical-offset="2057">
+            <state line="313" column="63" selection-start="10511" selection-end="10511" vertical-scroll-proportion="0.29166666" vertical-offset="1517" max-vertical-offset="2176">
               <folding>
-                <element signature="e#25#39#0" expanded="true" />
-                <element signature="e#400#621#0" expanded="false" />
                 <element signature="e#659#2168#0" expanded="false" />
+                <element signature="e#2220#5223#0" expanded="false" />
                 <element signature="e#5264#6923#0" expanded="false" />
-                <element signature="e#6962#8799#0" expanded="false" />
-                <element signature="e#8848#10704#0" expanded="false" />
-                <element signature="e#10740#12164#0" expanded="false" />
-                <element signature="e#12211#13675#0" expanded="false" />
+                <element signature="e#6962#8622#0" expanded="false" />
+                <element signature="e#11290#12714#0" expanded="false" />
+                <element signature="e#12761#14225#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,10 +42,8 @@
       <file leaf-file-name="ServiceProviderweb.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1020">
-              <folding>
-                <element signature="e#25#57#0" expanded="true" />
-              </folding>
+            <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1020">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -374,7 +370,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,22 +407,62 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="34" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Scrapper.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="294" column="0" selection-start="9799" selection-end="9799" vertical-scroll-proportion="0.0" vertical-offset="1874" max-vertical-offset="3060">
+          <folding>
+            <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
+            <element signature="e#5264#6923#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="0" selection-start="8623" selection-end="8623" vertical-scroll-proportion="0.0" vertical-offset="4352" max-vertical-offset="6783">
+          <folding>
+            <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
+            <element signature="e#5264#6923#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="153" column="34" selection-start="5324" selection-end="5324" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1292">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -434,9 +470,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="84" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="646">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -444,14 +478,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2516">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -459,9 +491,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="43" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="561">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -469,14 +499,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="0" selection-start="2458" selection-end="2458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2448">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -484,9 +512,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -494,14 +520,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="20" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -509,9 +533,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="561">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -519,14 +541,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -534,9 +554,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -544,14 +562,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="0" selection-start="3018" selection-end="3018" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1887">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,9 +575,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="33" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="561">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,14 +583,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,9 +596,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="425">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,14 +604,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -609,9 +617,7 @@
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="425">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,88 +625,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/cookielib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1747" column="0" selection-start="62838" selection-end="62838" vertical-scroll-proportion="0.0" vertical-offset="29577" max-vertical-offset="30600">
-          <folding />
-        </state>
+        <state line="1747" column="0" selection-start="62838" selection-end="62838" vertical-scroll-proportion="0.0" vertical-offset="29577" max-vertical-offset="30600" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/BaseHTTPServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="339" column="0" selection-start="12510" selection-end="12510" vertical-scroll-proportion="0.0" vertical-offset="5590" max-vertical-offset="10302">
-          <folding />
-        </state>
+        <state line="339" column="0" selection-start="12510" selection-end="12510" vertical-scroll-proportion="0.0" vertical-offset="5590" max-vertical-offset="10302" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/SocketServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="0" selection-start="11553" selection-end="11553" vertical-scroll-proportion="0.33152175" vertical-offset="5471" max-vertical-offset="12461">
-          <folding />
-        </state>
+        <state line="333" column="0" selection-start="11553" selection-end="11553" vertical-scroll-proportion="0.33152175" vertical-offset="5471" max-vertical-offset="12461" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/copy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.0" vertical-offset="1051" max-vertical-offset="7429">
-          <folding />
-        </state>
+        <state line="71" column="0" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.0" vertical-offset="1051" max-vertical-offset="7429" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/werkzeug/debug/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0" vertical-offset="1255" max-vertical-offset="3145">
-          <folding />
-        </state>
+        <state line="87" column="0" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0" vertical-offset="1255" max-vertical-offset="3145" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/werkzeug/serving.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="0" selection-start="6493" selection-end="6493" vertical-scroll-proportion="0.33152175" vertical-offset="2751" max-vertical-offset="12716">
-          <folding />
-        </state>
+        <state line="176" column="0" selection-start="6493" selection-end="6493" vertical-scroll-proportion="0.33152175" vertical-offset="2751" max-vertical-offset="12716" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1474" column="0" selection-start="62107" selection-end="62107" vertical-scroll-proportion="0.33152175" vertical-offset="24511" max-vertical-offset="30991">
-          <folding />
-        </state>
+        <state line="1474" column="0" selection-start="62107" selection-end="62107" vertical-scroll-proportion="0.33152175" vertical-offset="24511" max-vertical-offset="30991" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ServiceProviderweb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1020">
-          <folding>
-            <element signature="e#25#57#0" expanded="true" />
-          </folding>
+        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="40" selection-start="12206" selection-end="12206" vertical-scroll-proportion="4.4791665" vertical-offset="450" max-vertical-offset="2057">
+        <state line="313" column="63" selection-start="10511" selection-end="10511" vertical-scroll-proportion="0.29166666" vertical-offset="1517" max-vertical-offset="2176">
           <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <element signature="e#400#621#0" expanded="false" />
             <element signature="e#659#2168#0" expanded="false" />
+            <element signature="e#2220#5223#0" expanded="false" />
             <element signature="e#5264#6923#0" expanded="false" />
-            <element signature="e#6962#8799#0" expanded="false" />
-            <element signature="e#8848#10704#0" expanded="false" />
-            <element signature="e#10740#12164#0" expanded="false" />
-            <element signature="e#12211#13675#0" expanded="false" />
+            <element signature="e#6962#8622#0" expanded="false" />
+            <element signature="e#11290#12714#0" expanded="false" />
+            <element signature="e#12761#14225#0" expanded="false" />
           </folding>
         </state>
       </provider>
